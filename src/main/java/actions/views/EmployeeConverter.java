@@ -1,12 +1,11 @@
 package actions.views;
 
-
 import java.util.ArrayList;
+import java.util.List;
 
 import constants.AttributeConst;
 import constants.JpaConst;
 import models.Employee;
-
 /**
  * 従業員データのDTOモデル⇔Viewモデルの変換を行うクラス
  *
@@ -26,7 +25,7 @@ public class EmployeeConverter {
                 ev.getId(),
                 ev.getCode(),
                 ev.getName(),
-                ev,getPassword(),
+                ev.getPassword(),
                 ev.getAdminFlag() == null
                 ? null
                 :ev.getAdminFlag() ==AttributeConst.ROLE_ADMIN.getIntegerValue()
