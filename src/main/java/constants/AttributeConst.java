@@ -4,7 +4,7 @@ package constants;
  * 画面の項目値等を定義するEnumクラス
  *
  */
-public enum AttibuteConst {
+public enum AttributeConst {
 
     //フラッシュメッセージ
     FLUSH("flush"),
@@ -53,12 +53,12 @@ public enum AttibuteConst {
     private final String text;
     private final Integer i;
 
-    private AttibuteConst(final String text) {
+    private AttributeConst(final String text) {
         this.text = text;
         this.i = null;
     }
 
-    private AttibuteConst(final Integer i) {
+    private AttributeConst(final Integer i) {
         this.text = null;
         this.i = i;
     }
