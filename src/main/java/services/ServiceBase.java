@@ -17,7 +17,7 @@ public class ServiceBase {
     protected EntityManager em = DBUtil.createEntityManager();
 
     /**
-     * EntityMnagerのクローズ
+     * EntityManagerのクローズ
      */
 
    public void close() {

@@ -8,7 +8,6 @@ package constants;
 
     public enum ForwardConst {
 
-        //action
       //action
         ACT("action"),
         ACT_TOP("Top"),
